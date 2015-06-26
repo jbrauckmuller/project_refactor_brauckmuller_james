@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -29,13 +35,10 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+/*p, ul, ol {
     margin-top: 0;
     line-height: 180%;
-}
-
-ul, ol {
-}
+}*/
 
 a {
     color: #5E5E5E;
@@ -44,7 +47,7 @@ a {
 a:hover {
 }
 
-#wrapper {
+body {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
@@ -54,6 +57,11 @@ a:hover {
 }
 
 /* Header */
+
+header {
+	width: 90%;
+	margin: 1em auto;
+}
 
 #header-wrapper {
     overflow: hidden;
@@ -167,16 +175,40 @@ a:hover {
     padding: 0;
 }
 
-#menu ul {
+/*#menu ul {
     float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
     line-height: normal;
-}
+}*/
 
 #menu li {
     float: left;
+}
+
+
+nav a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+	color: #1F1F1F;
+	padding: 20px 10px;
+}
+
+nav li {
+	padding: .15em;
+	text-align: center;
+	display: list-item;
+	list-style: none;
+}
+
+nav a:hover, nav .current_page_item a {
+    background: url(../img/img01.jpg) repeat;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 #menu a {
@@ -299,7 +331,7 @@ a:hover {
     padding: 30px 0px 0px 0px;
 }
 
-#sidebar ul {
+/*#sidebar ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -334,7 +366,7 @@ a:hover {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
-
+*/
 #sidebar h2 {
     height: 38px;
     padding: 0px 0px 30px 0px;
