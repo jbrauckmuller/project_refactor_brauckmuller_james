@@ -50,6 +50,11 @@ header h1 a {
 	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
 }
 
+header img {
+	height: auto;
+	width: 100%;
+}
+
 /* Aside */
 
 aside ul {
